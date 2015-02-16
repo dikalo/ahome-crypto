@@ -26,7 +26,7 @@ compileJava.options.encoding = 'UTF-8'
 
 jar {
     manifest {
-        attributes 'Implementation-Title': 'Ahome-Badge', 'Implementation-Version': version
+        attributes 'Implementation-Title': 'Ahome-Crypto', 'Implementation-Version': version
     }
     from sourceSets.main.allSource
 }
